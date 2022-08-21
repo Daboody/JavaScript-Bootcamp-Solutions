@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.form {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    background-color: rgb(97, 55, 63);
+    margin: 15px auto;
+    padding: 20px;
+    border-radius: 4px;
+}
+.input {
+    width: 70%;
+    padding: 10px;
+    border-radius: 4px;
+}
+.add {
+    width: 20%;
+    padding: 10px;
+    color: #fff;
+    background-color: red;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    opacity: .9;
+    transition: .3s;
+}
+.add:hover {
+    opacity: 1;
+    transition: .3s;
+}
+.tasks {
+    width: 600px;
+    background-color: rgb(97, 55, 63);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 4px;
+}
+.task-container {
+    display: flex;
+    align-items: center;
+}
+.the-task {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #fff;
+    border-radius: 4px;
+    font-size: 18px;
+    position: relative;
+}
+
+.delete-element {
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    background-color: rgb(212, 37, 37);
+    opacity: .9;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    font-weight: bold;
+    font-size: 13px;
+    position: relative;
+    top: 0px;
+    left: -30px;
+    transition: .3s;
+    cursor: pointer;
+}
+.delete-element:hover {
+    opacity: 1;
+    transition: .3s;
+}
